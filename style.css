@@ -18,4 +18,32 @@ body {
 .temp-logo {
   color: #9163cb;
   padding: 20px 0;
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #9163cb;
 }
