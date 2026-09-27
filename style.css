@@ -3,3 +3,19 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.temp-logo {
+  color: #9163cb;
+  padding: 20px 0;
+}
