@@ -8,6 +8,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+header,
+.section-hero {
+  background: #0b1020;
+}
+
 .container {
   width: 100%;
   max-width: 1600px;
@@ -27,7 +32,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 0;
+  /* padding-top: 20px; */
 }
 
 nav ul {
@@ -37,26 +42,41 @@ nav ul {
   gap: 20px;
 }
 
-nav a {
+.nav-item {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: bold;
 }
 
-nav a:hover {
+.nav-item:hover {
   color: #9163cb;
 }
 
-.hero-section {
+.active {
+  color: #9163cb;
+}
+
+.orbito-logo {
+  color: #fff;
+}
+
+.hero {
   display: flex;
   justify-content: space-between;
   gap: 80px;
   align-items: center;
+  height: 650px;
+  transform: translateY(-40.5px);
 }
 
-.left-hero-section h1,
+.left-hero h1,
 p {
-  color: #333;
+  color: #fff;
+}
+
+.left-hero-eyebrow {
+  color: #9163cb;
+  margin-bottom: 24px;
 }
 
 .left-hero-h1 {
@@ -79,13 +99,27 @@ p {
   text-decoration: none;
   padding: 20px;
   display: inline-block;
+  border-radius: 10px;
 }
 
 .left-hero-btn:hover {
   background-color: #573b79;
+  color: #fff;
 }
 
-.right-hero-section img {
-  width: 700px;
+.explore {
+  margin-right: 24px;
+  height: 62px;
+}
+
+.learn-more {
+  background-color: transparent;
+  width: 178.61px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.right-hero img {
+  width: 650px;
   height: 440px;
 }
