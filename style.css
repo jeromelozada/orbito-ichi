@@ -97,7 +97,7 @@ nav ul {
   justify-content: space-between;
   gap: 80px;
   align-items: center;
-  padding: 130px 0 150px; /* top = bottom - 20px */
+  padding: 110px 0 130px; /* top = bottom - 20px */
 }
 
 .left-hero h1,
