@@ -206,6 +206,19 @@ p {
   color: #333;
 }
 
+.glimpse {
+  text-align: center;
+}
+
+.glimpse h2,
+p {
+  padding-bottom: 15px;
+}
+
+.glimpse .prgrph {
+  color: #000;
+}
+
 .dashboard {
   display: flex;
   margin: 0 auto;
