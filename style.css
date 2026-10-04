@@ -100,30 +100,29 @@ nav ul {
   padding: 110px 0 130px; /* top = bottom - 20px */
 }
 
-.left-hero h1,
-p {
-  color: #fff;
-}
-
 .eyebrow {
   color: #9163cb;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   letter-spacing: 4px;
   font-weight: bold;
+}
+
+.left-hero h1,
+.left-hero p {
+  color: #fff;
+  margin-bottom: 24px;
 }
 
 .left-hero-h1 {
   font-size: 54px;
   letter-spacing: -1px;
   line-height: 1.1em;
-  margin-bottom: 24px;
 }
 
 .left-hero-prgrph {
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: -0.5px;
-  margin-bottom: 24px;
 }
 
 .left-hero-btn {
@@ -163,11 +162,7 @@ p {
 
 .section-feature .eyebrow {
   text-align: center;
-  margin-bottom: 75px;
-}
-
-.section-feature .eyebrow {
-  margin-bottom: 50px;
+  /* margin-bottom: 75px; */
 }
 
 .feature-cards {
@@ -209,16 +204,18 @@ p {
   color: #333;
 }
 
-.glimpse {
+.section-heading {
+  margin-bottom: 24px;
+}
+
+.section-heading .eyebrow,
+.section-heading h2,
+.section-heading p {
   text-align: center;
+  padding-bottom: 18px;
 }
 
-.glimpse h2,
-.prgrph {
-  padding-bottom: 15px;
-}
-
-.glimpse .prgrph {
+.section-heading .prgrph {
   color: #000;
 }
 
